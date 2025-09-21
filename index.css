@@ -1,0 +1,94 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+  margin: 2px;
+  padding: 2px;
+  box-sizing: border-box;
+   
+
+} 
+
+body {
+  background-color: rgba(7, 164, 242, 0.997);
+  color:black;
+  
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  padding: 16px;
+}
+
+a {
+  color:black ;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.login-container {
+  background: rgb(245, 181, 4);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px  ;
+  width: 300px;
+  margin: 40px auto;
+  max-width: 90%;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid greenyellow;
+  border-radius: 4px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: greenyellow;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color:greenyellow ;
+}
+
+.login-container a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.placa {
+  position: absolute;
+  top:0Px;
+  left: 0px;
+  width: 150px;
+  height: 200px;
+  object-fit: contain;
+  z-index: 10;
+}
